@@ -20,7 +20,20 @@
  <h2 id="Anforderungen">Anforderungen</h2>
  <p></p>
  <h3>Erstellen & Befüllen der Datenbank</h3>
+ <p>Über <a href="https://discord.com/channels/946406414522384454/1001145091802529792/1001147850333368481">diesen Link</a></a> können Sie eine ZIP-Datei mit ca. 500 Redebeiträgen aus dem Bundestag herunterladen. Alle Beiträge entstammen den Jahren 1949 bis 1951 und bilden damit auszugsweise die erste Hälfte der ersten Wahlperiode ab. Die Redebeiträge wurden zufällig ausgewählt. Für jeden Beitrag finden Sie im Archiv drei einzelne Dateien: 
+<ul>
+ <li>Eine JSON-formatierte Datei mit verschiedenen Informationen zum Redebeitrag, der jeweiligen Sprecher*in und der zugehörigen Plenarsitzung.</li>
+ <li>Eine PNG-Datei mit einem Porträt der Sprecher*in. Falls in der Mediathek keine Aufnahme bereitgestellt wurde, finden Sie hier eine Platzhaltergrafik.</li>
+ <li>Eine MP3-Datei mit der Audioaufzeichnung des Redebeitrags.</li>
+</ul>
+Die drei zusammengehörigen Dateien werden über einen identischen Dateinahmen identifziert. Die Namen der Bild- und Tondateien finden sich zusätzlich auch in der JSON-Datei.
+ </p>
+ <p>Erstellen Sie eine SQLite-Datebank, in der die Informationen aus den einzelnen JSON-Dateien zusammengeführt werden können. Entwerfen Sie dazu zuerst ein passendes Datenbankschema. Beachten Sie die im Kurs besprochenen Normalisierungsregeln, denken Sie an die Anforderungen, die sich aus Aufgabenteil 2 für das Schema ergeben und vergessen Sie nicht einmalige Identifizierer (IDs) für jeden Eintrag zu vergeben, um diese auch nachträglich noch eindeutlich ansprechen zu können. Die Bild- und Tondateien sollen in der Datenbank nur referenziert, aber nicht direkt dort abgespeichert werden. D.h., Sie halten in der Datenbank den relativen Pfad zu den jeweiligen Dateien fest und stellen sicher, dass diese in der Anwendung, die im zweiten Teil entwickelt wird, über diesen Pfad adressierbar sind. Sobald Sie das Schema erstellt und erfolgreich im <i>DB Browser</i> getestet haben, verwenden Sie den vorbereiteten Skript für die Überführung der JSON-Dateien in die Datenbank. Dazu laden Sie den Skript herunter und folgen den Anweisungen aus der Datei <code>Readme.md</code>. Sie müssen zwei Stellen im Skript anpassen, um zuerst die Datenbank korrekt zu initialisieren und dann die Inhalte jeder JSON-Datei individuell in die Datenbank zu überführen.</p>
+ <h4>Ziele</h4>
+ Beim Ausführen des heruntergeladenen Skripts wird eine SQLite-Datenbank erstellt, die alle Informationen aus den bereitgestellten JSON-Dateien beeinhaltet. Zusammen mit den ebenfalls bereitgestellten Bild- und Ton-Dateien kann die Datenbank im zweiten Aufgabenteil verwendet werden.
  <h3>Implementierung der Browser-Anwendung</h3>
+ <h2 id="Bewertungskriterien">Bewertungskriterien</h2>
+ <p>Wesentliches Kriterium zur Bewertung Ihres Projektes ist die Umsetzung aller beschriebenen Funktionen. Ihre Anwendung muss für die definierten Anforderungen einen ernst gemeinten, erkennbaren Lösungsvorschlag beinhalten. Zusätzlich bewerten wir den Aufwand und die Qualität, die bei der Umsetzung der Funktionen erkennbar sind. Dazu gehört die Verwendbarkeit, Fehlertoleranz und ästhetische Qualität der Benutzeroberfläche sowie die Qualität (Struktur) des Datenbankschemas.</p>
 </body>
 
 </html>
