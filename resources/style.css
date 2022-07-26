@@ -54,7 +54,7 @@ ul.menu {
 
 @media print {
  ul.menu {
-  display: hidden;
+  display: none;
  }
 }
 
