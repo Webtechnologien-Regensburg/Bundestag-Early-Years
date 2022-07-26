@@ -88,9 +88,9 @@
         initialisieren und dann die Inhalte jeder JSON-Datei individuell in die Datenbank zu überführen.</p>
     <h4 id="Ziele">Ziele</h4>
     <ul class="requirements">
-        <li>Beim Ausführen des heruntergeladenen Skripts wird eine SQLite-Datenbank erstellt, die alle Informationen aus
+        <li><input type="checkbox"><span>Beim Ausführen des heruntergeladenen Skripts wird eine SQLite-Datenbank erstellt, die alle Informationen aus
             den bereitgestellten JSON-Dateien beinhaltet. Zusammen mit den ebenfalls bereitgestellten Bild- und
-            Ton-Dateien kann die Datenbank im zweiten Aufgabenteil verwendet werden.</li>
+            Ton-Dateien kann die Datenbank im zweiten Aufgabenteil verwendet werden.</span></li>
     </ul>
     <h3>Implementierung der Browser-Anwendung</h3>
     <p>Mit der erstellen und befüllten Datenbank setzten Sie die eigentlichen Projektarbeit um. Als Grundlage dafür
@@ -105,11 +105,15 @@
         Sprecher*innen oder dem Zeitraum, aus dem die Beiträge stammen werden dabei bei jedem Start der Anwendung
         automatisch aus der Datenbank bezogen und dann in die HTML-Seite angezeigt. Über die Startseite wechseln die
         Nutzer*innen zur <b>Übersicht</b>.</p>
+        <img class="sketch" src="resources/images/ui-sketch-homepage.png" />
+        <p>UI-Skizze zur möglichen Gestaltung der Startseite.</p>
     <h4>Übersicht</h4>
-    <p>Auf dieser Seite werden alle vorhandene Redebeiträge in einer übersichtlichen Tabelle dargestellt. Für jeden
+    <p>Auf dieser Seite werden alle vorhandene Redebeiträge in einer übersichtlichen Tabelle oder Liste dargestellt. Für jeden
         Beitrag werden alle relevanten Informationen, wie Sitzung, Datum, Sprecher*in und Thema anzeigt. Über sinnvolle
         Filtermöglichkeiten können die Nutzer*innen den Datenbestand explorativ durchsuchen. Über die einzelnen Einträge
         kann jeweils zu einer <b>Detailansicht</b> gewechselt werden.</p>
+        <img class="sketch" src="resources/images/ui-sketch-overview.png" />
+        <p>UI-Skizze zur möglichen Gestaltung der Übersichtsseite. Über die einzelnen Einträg kann zur Detailansicht gewechselt werden.</p>
     <h4>Detailansicht</h4>
     <p>In der Detailansicht könne die Nutzer*innen den ausgewählten Redebeitrag anhören. Zusätzlich werden alle
         verfügbaren Informationen zum jeweiligen Beitrag übersichtlich dargestellt. Während des Abspielens des Beitrags
@@ -117,17 +121,19 @@
         zusätzlich mit einer Auswahl von Ihnen vorgegebener <i>Tags</i>, wie z.B. <i>Zwischenruf</i>, <i>Ordnungsruf</i>
         oder <i>Direkte Anrede</i> versehen werden. In der Detailansicht werden alle Kommentare angezeigt, die die
         Nutzer*innen der Anwendung bereits zu diesem Beitrag verfasst haben.</p>
+        <img class="sketch" src="resources/images/ui-sketch-details.png" />
+        <p>UI-Skizze zur möglichen Gestaltung der Detailansicht.</p>
     <h4 id="Ziele">Ziele</h4>
     <ul class="requirements">
-        <li>Die Nutzer*innen Ihrer Anwendung erhalten einen (statistischen) Überblick über die bereitgestellten Daten
-            und deren Herkunft.</li>
-        <li>Die Nutzer*innen können eine Liste aller Redebeiträge explorativ durchsuchen um für sie interessanten
-            Beitragen zu identifizieren.</li>
-        <li>Die Nutzer*innen können Detailinformationen zu einzelnen Redebeiträgen einsehen und die eigentliche
-            Aufzeichnung direkt abspielen.</li>
-        <li>Die Nutzer*innen können ausgewählte Stellen der Anwendung mit Textkommentaren und Tags versehen.</li>
-        <li>Die Nutzer*innen können die Kommentare andere Nutzer*innen zu den einzelnen Beiträgen einsehen und den
-            jeweiligen Stellen im Redebeitrag zuordnen.</li>
+        <li><input type="checkbox"><span>Die Nutzer*innen Ihrer Anwendung erhalten einen (statistischen) Überblick über die bereitgestellten Daten
+            und deren Herkunft.</span></li>
+        <li><input type="checkbox"><span>Die Nutzer*innen können eine Liste aller Redebeiträge explorativ durchsuchen um für sie interessanten
+            Beitragen zu identifizieren.</span></li>
+        <li><input type="checkbox"><span>Die Nutzer*innen können Detailinformationen zu einzelnen Redebeiträgen einsehen und die eigentliche
+            Aufzeichnung direkt abspielen.</span></li>
+        <li><input type="checkbox"><span>Die Nutzer*innen können ausgewählte Stellen der Anwendung mit Textkommentaren und Tags versehen.</span></li>
+        <li><input type="checkbox"><span>Die Nutzer*innen können die Kommentare andere Nutzer*innen zu den einzelnen Beiträgen einsehen und den
+            jeweiligen Stellen im Redebeitrag zuordnen.</span></li>
     </ul>
     <h2 id="Bewertung">Bewertung</h2>
     <p>Wesentliches Kriterium zur Bewertung Ihres Projektes ist die Umsetzung aller beschriebenen Funktionen. Ihre
