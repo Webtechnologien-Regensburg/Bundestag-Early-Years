@@ -48,6 +48,7 @@ h1 {
 
 p {
  padding: 0.5vw;
+ margin: 0.5vh;
  line-height: 1.5em;
  text-align: justify;
 }
@@ -76,4 +77,24 @@ p.disclaimer .date {
 
 p code {
  font-family: 'Roboto Mono', monospace;
+}
+
+ul {
+ list-style-type: square;
+}
+
+ul li {
+ line-height: 1.5em;
+ margin-bottom: 0.25vh;
+}
+
+ul.requirements {
+ padding: 0;
+ list-style-type: none;
+}
+
+ul.requirements li {
+ padding: 0.5vh;
+ border-radius: 4px;
+ background-color: var(--minion-yellow);
 }
