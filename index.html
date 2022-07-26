@@ -12,113 +12,84 @@
     <h1>Bundestag: <i>The early years</i></h1>
     <p class="disclaimer"><span class="title">Wichtige Hinweise</span>Dieses Dokument beschreibt den Aufbau und die
         Anforderungen an das Abschlussprojekt im Kurs <b>Webtechnologien</b> im Sommersemester 2022. Eine statische
-        Version
-        der Aufgabenbeschreibung kann über die <a href="javascript:window.print();">Druckfunktion</a> des Browser
-        erstellt
-        werden. Über Änderungen am Dokument werden alle Kursteilnehmer*innen per E-Mail informiert. <span
-            class="date">Das
-            Dokument wurde zuletzt am 26. Juli 2022 bearbeitet.</span></p>
+        Version der Aufgabenbeschreibung kann über die <a href="javascript:window.print();">Druckfunktion</a> des
+        Browser erstellt werden. Über Änderungen am Dokument werden alle Kursteilnehmer*innen per E-Mail informiert.
+        <span class="date">Das Dokument wurde zuletzt am 26. Juli 2022 bearbeitet.</span></p>
     <h2 id="Zusammenfassung">Zusammenfassung</h2>
     <p>Über die <a href="https://www.bundestag.de/mediathek">Mediathek</a> des <a
             href="https://www.bundestag.de/">Deutschen Bundestags</a> stehen zahlreiche Plenardebatten als Audio- oder
         Videoaufzeichnungen zur Verfügung. Auf Basis von <a
             href="https://www.bundestag.de/dokumente/textarchiv/2019/kw03-audio-archiv-2-wahlperiode-587488">Radioarchiven</a>
         konnten auch Teile der frühen Wahlperioden wiederhergestellt und als Audiomaterial öffentlich zugänglich gemacht
-        werden Gerade diese frühen Jahren der Bundesrepublik sind von facettenreichen Debatten geprägt, die sich
-        zwischen der
-        Bewältigung der Kriegsfolgen, parlamentarischer Gundsatzarbeit und zentralen Richtungsentscheidungen bewegen.
-        Die
-        vorhandenen Aufzeichnungen sind fast vollständig mit Metainformationen zu den Sprecher*innen und Sitzungsthemen
-        versehen. Eine inhaltliche Beschreibung und detailierte Annotation der einzelnen Redebeiträge fehlt.</p>
-    <p>In diesem Projekt erstellen Sie eine interaktive Webseite, die ihren Nutzer*innen diese Archiv zugänglich macht.
+        werden. Gerade diese frühen Jahren der Bundesrepublik sind von facettenreichen Debatten geprägt, die sich
+        zwischen der Bewältigung der Kriegsfolgen, parlamentarischer Gundsatzarbeit und zentralen
+        Richtungsentscheidungen bewegen. Die vorhandenen Aufzeichnungen sind fast vollständig mit Metainformationen zu
+        den Sprecher*innen und Sitzungsthemen versehen. Eine inhaltliche Beschreibung und detaillierte Annotation der
+        einzelnen Redebeiträge fehlt.</p>
+    <p>In diesem Projekt erstellen Sie eine interaktive Webseite, die ihren Nutzer*innen dieses Archiv zugänglich macht.
         Über die Oberfläche können die Nutzer*innen die Audiobeiträge explorativ erschließt. Anders als die Mediathek
-        des
-        Bundestags bietet Ihre Webseite zusätzlich die Möglichkeit, einzelne Beiträge nicht nur anzuhören, sondern mit
-        individuellen Kommentaren zu versehen. Dabei können Nutzer*innen einzelne Passagen kennzeichnen und über
-        vorgegebene
-        Tags oder freie Kommentare für andere Nutzer*innen beschreiben. </p>
+        des Bundestags bietet Ihre Webseite zusätzlich die Möglichkeit, einzelne Beiträge nicht nur anzuhören, sondern
+        mit individuellen Kommentaren zu versehen. Dabei können Nutzer*innen einzelne Passagen kennzeichnen und über
+        vorgegebene Tags oder freie Kommentare für andere Nutzer*innen beschreiben. </p>
     <h2 id="Ablauf">Ablauf</h2>
     <p>Das Projekt besteht aus zwei Teilen. In einem ersten Schritt überführen Sie die bereitgestellten Daten in eine
-        SQLite-Datei. Dazu erstellen Sie ein passendes Datenbankschema und erweitern den bereitgestellen Import-Skript,
-        um die
-        einzelnen JSON-Dateien in die Datenbank zu überführen. Im Anschluss nutzen Sie die so befüllte Datenbank, als
-        Grundlage für die Umsetzung der eigentlichen Webanwendung. Diese Implementierung erfolgt auf Basis eines
+        SQLite-Datei. Dazu erstellen Sie ein passendes Datenbankschema und erweitern den bereitgestellten Import-Skript,
+        um die einzelnen JSON-Dateien in die Datenbank zu überführen. Im Anschluss nutzen Sie die so befüllte Datenbank,
+        als Grundlage für die Umsetzung der eigentlichen Webanwendung. Diese Implementierung erfolgt auf Basis eines
         Starterpakets, in dem wir Ihnen die Struktur der fertigen Anwendung vorgeben. Ihr fertigstelltes Projekt reichen
-        Sie
-        bis spätestens <b>Freitag, 30. September, 2022</b> über die Upload-Funktion in GRIPS ein. Die Abgabe erfolgt in
-        Form
-        einer einzelne ZIP-Datei, die auf oberster Ebene in zwei Unterordnern den vollständigen Code des von Ihnen
-        angepassten
-        Import-Skripts sowie der Webanwendung, inkl. der befüllten Datenbank. Die bereitgestellten Bild- und Tondateien
-        geben
-        Sie nicht mit ab. Beachten Sie dazu die Hinweise unter <a href="#Anforderungen">Anforderungen</a>.</p>
+        Sie bis spätestens <b>Freitag, 30. September, 2022</b> über die Upload-Funktion in GRIPS ein. Die Abgabe erfolgt
+        in Form einer einzelne ZIP-Datei, die auf oberster Ebene in zwei Unterordnern den vollständigen Code des von
+        Ihnen angepassten Import-Skripts sowie der Webanwendung, inkl. der befüllten Datenbank. Die bereitgestellten
+        Bild- und Tondateien geben Sie nicht mit ab. Beachten Sie dazu die Hinweise unter <a
+            href="#Anforderungen">Anforderungen</a>.</p>
     <p>Sie können das Projekt wahlweise in Einzelarbeit oder als Gruppenprojekt erstellen. Die Gruppengröße ist auf zwei
         Teilnehmer*innen beschränkt. Die Aufgabenbeschreibung ist dabei auf ein Gruppenprojekt zugeschnitten. Sollten
-        Sie sich
-        für eine Einzelarbeit entscheiden, berücksichtigen wir das entsprechend bei der Bewertung Ihres Projekts.
-        <b>Bitte
-            teilen Sie uns bis spätestens Mittwoch, 27. Juli, 20:00 Uhr</b> per E-Mail an
-        <code>alexander.bazo@ur.de</code>
-        <b>und</b> <code>david.halbhuber@ur.de</code> mit, ob Sie das Projekt alleine oder zu zweit bearbeiten werden.
-        Im
-        letzten Fall geben Sie uns Bescheid, mit wem Sie das Projekt bearbeiten wollen.</p>
+        Sie sich für eine Einzelarbeit entscheiden, berücksichtigen wir das entsprechend bei der Bewertung Ihres
+        Projekts. <b>Bitte teilen Sie uns bis spätestens Mittwoch, 27. Juli, 20:00 Uhr</b> per E-Mail an
+        <code>alexander.bazo@ur.de</code> <b>und</b> <code>david.halbhuber@ur.de</code> mit, ob Sie das Projekt allein
+        oder zu zweit bearbeiten werden. Im letzten Fall geben Sie uns Bescheid, mit wem Sie das Projekt bearbeiten
+        wollen.</p>
     <h2 id="Anforderungen">Anforderungen</h2>
     <p>Die folgenden Absätze beschreiben die Anforderungen, die Sie bei der Umsetzung der beiden Projektteile
         implementieren sollen. Bitte beachten Sie für beide Teile die zusätzlichen Hinweise, die wir Ihnen direkt in den
         zur Verfügung gestellten Starterpaketen für Importer und Projekt notiert haben.</p>
     <h3>Erstellen & Befüllen der Datenbank</h3>
-    <p>Über <a href="https://t1p.de/webtech-ss22-projekte-data-zip">diesen
-            Link</a> können Sie eine ZIP-Datei mit ca. 500 Redebeiträgen aus dem Bundestag herunterladen. Alle
-        Beiträge
-        entstammen den Jahren 1949 bis 1951 und bilden damit auszugsweise die erste Hälfte der ersten Wahlperiode ab.
-        Die
-        Redebeiträge wurden zufällig ausgewählt. Für jeden Beitrag finden Sie im Archiv drei einzelne Dateien:
-    </p>
+    <p>Über <a href="https://t1p.de/webtech-ss22-projekte-data-zip">diesen Link</a> können Sie eine ZIP-Datei mit ca.
+        500 Redebeiträgen aus dem Bundestag herunterladen. Alle Beiträge entstammen den Jahren 1949 bis 1951 und bilden
+        damit auszugsweise die erste Hälfte der ersten Wahlperiode ab. Die Redebeiträge wurden zufällig ausgewählt. Für
+        jeden Beitrag finden Sie im Archiv drei einzelne Dateien: </p>
     <ul>
-        <li>Eine JSON-formatierte Datei mit verschiedenen Informationen zum Redebeitrag, der jeweiligen Sprecher*in
-            und der
-            zugehörigen Plenarsitzung.</li>
+        <li>Eine JSON-formatierte Datei mit verschiedenen Informationen zum Redebeitrag, der jeweiligen Sprecher*in und
+            der zugehörigen Plenarsitzung.</li>
         <li>Eine PNG-Datei mit einem Porträt der Sprecher*in. Falls in der Mediathek keine Aufnahme bereitgestellt
-            wurde,
-            finden Sie hier eine Platzhaltergrafik.</li>
+            wurde, finden Sie hier eine Platzhaltergrafik.</li>
         <li>Eine MP3-Datei mit der Audioaufzeichnung des Redebeitrags.</li>
     </ul>
-    <p>
-        Die drei zusammengehörigen Dateien werden über einen identischen Dateinahmen identifziert. Die Namen der Bild-
-        und
-        Tondateien finden sich zusätzlich auch in der JSON-Datei.
-    </p>
+    <p> Die drei zusammengehörigen Dateien werden über einen identischen Dateinahmen identifiziert. Die Namen der Bild-
+        und Tondateien finden sich zusätzlich auch in der JSON-Datei. </p>
     <p>Erstellen Sie eine SQLite-Datebank, in der die Informationen aus den einzelnen JSON-Dateien zusammengeführt
-        werde
-        können. Entwerfen Sie dazu zuerst ein passendes Datenbankschema. Beachten Sie die im Kurs besprochenen
+        werden können. Entwerfen Sie dazu zuerst ein passendes Datenbankschema. Beachten Sie die im Kurs besprochenen
         Normalisierungsregeln, denken Sie an die Anforderungen, die sich aus Aufgabenteil 2 für das Schema ergeben und
-        vergessen Sie nicht einmalige Identifizierer (IDs) für jeden Eintrag zu vergeben, um diese auch nachträglich
-        noch
-        eindeutlich ansprechen zu können. Die Bild- und Tondateien sollen in der Datenbank nur referenziert, aber nicht
-        direkt
-        dort abgespeichert werden. D.h., Sie halten in der Datenbank den relativen Pfad zu den jeweiligen Dateien fest
-        und
-        stellen sicher, dass diese in der Anwendung, die im zweiten Teil entwickelt wird, über diesen Pfad adressierbar
-        sind.
-        Sobald Sie das Schema erstellt und erfolgreich im <i>DB Browser</i> getestet haben, verwenden Sie den
-        vorbereiteten
-        Skript für die Überführung der JSON-Dateien in die Datenbank. Dazu laden Sie <a
-            href="https://t1p.de/webtech-ss22-importer">den Skript herunter</a> und folgen den
-        Anweisungen aus der Datei <code>Readme.md</code>. Sie müssen zwei Stellen im Skript anpassen, um zuerst die
-        Datenbank
-        korrekt zu initialisieren und dann die Inhalte jeder JSON-Datei individuell in die Datenbank zu überführen.</p>
+        vergessen Sie nicht einmalige IDs (Schlüssel) für jeden Eintrag zu vergeben, um diese auch nachträglich noch
+        eindeutig ansprechen zu können. Die Bild- und Tondateien sollen in der Datenbank nur referenziert, aber nicht
+        direkt dort abgespeichert werden. D.h., Sie halten in der Datenbank den relativen Pfad zu den jeweiligen Dateien
+        fest und stellen sicher, dass diese in der Anwendung, die im zweiten Teil entwickelt wird, über diesen Pfad
+        adressierbar sind. Sobald Sie das Schema erstellt und erfolgreich im <i>DB Browser</i> getestet haben, verwenden
+        Sie den vorbereiteten Skript für die Überführung der JSON-Dateien in die Datenbank. Dazu laden Sie <a
+            href="https://t1p.de/webtech-ss22-importer">den Skript herunter</a> und folgen den Anweisungen aus der Datei
+        <code>Readme.md</code>. Sie müssen zwei Stellen im Skript anpassen, um zuerst die Datenbank korrekt zu
+        initialisieren und dann die Inhalte jeder JSON-Datei individuell in die Datenbank zu überführen.</p>
     <h4 id="Ziele">Ziele</h4>
     <ul class="requirements">
         <li>Beim Ausführen des heruntergeladenen Skripts wird eine SQLite-Datenbank erstellt, die alle Informationen aus
-            den
-            bereitgestellten JSON-Dateien beeinhaltet. Zusammen mit den ebenfalls bereitgestellten Bild- und Ton-Dateien
-            kann die Datenbank im zweiten Aufgabenteil verwendet werden.</li>
+            den bereitgestellten JSON-Dateien beinhaltet. Zusammen mit den ebenfalls bereitgestellten Bild- und
+            Ton-Dateien kann die Datenbank im zweiten Aufgabenteil verwendet werden.</li>
     </ul>
     <h3>Implementierung der Browser-Anwendung</h3>
     <p>Mit der erstellen und befüllten Datenbank setzten Sie die eigentlichen Projektarbeit um. Als Grundlage dafür
         verwenden Sie die Projektstruktur, die wir Ihnen in diesem <a
             href="https://t1p.de/webtech-ss22-starter">Starterpaket</a> zur Verfügung stellen. Machen Sie sich mit dem
-        Aufbau des vorgegebenen Codes vertraut und stellen Sie sicher, dass Sie diesen Ausführen und Verwenden können.
+        Aufbau des vorgegebenen Codes vertraut und stellen Sie sicher, dass Sie dieses Ausführen und Verwenden können.
         Beginnen Sie dann mit der Implementierung dieser Anforderungen.</p>
     <h4>Startseite</h4>
     <p>Auf einer Startseite werden den Nutzer*innen Informationen zur Anwendung selbst und dem Datenbestand dargestellt.
@@ -129,8 +100,8 @@
         Nutzer*innen zur <b>Übersicht</b>.</p>
     <h4>Übersicht</h4>
     <p>Auf dieser Seite werden alle vorhandene Redebeiträge in einer übersichtlichen Tabelle dargestellt. Für jeden
-        Beitrag werden alle relevante Informationen, wie Sitzung, Datum, Sprecher*in und Thema anzeigt. Über sinnvolle
-        Filtermöglichkeiten können die Nutzer*innen den Datenbestand eplorativ durchsuchen. Über die einzelnen Einträge
+        Beitrag werden alle relevanten Informationen, wie Sitzung, Datum, Sprecher*in und Thema anzeigt. Über sinnvolle
+        Filtermöglichkeiten können die Nutzer*innen den Datenbestand explorativ durchsuchen. Über die einzelnen Einträge
         kann jeweils zu einer <b>Detailansicht</b> gewechselt werden.</p>
     <h4>Detailansicht</h4>
     <p>In der Detailansicht könne die Nutzer*innen den ausgewählten Redebeitrag anhören. Zusätzlich werden alle
@@ -144,7 +115,7 @@
         <li>Die Nutzer*innen Ihrer Anwendung erhalten einen (statistischen) Überblick über die bereitgestellten Daten
             und deren Herkunft.</li>
         <li>Die Nutzer*innen können eine Liste aller Redebeiträge explorativ durchsuchen um für sie interessanten
-            Beitragen zu indentifzieren.</li>
+            Beitragen zu identifizieren.</li>
         <li>Die Nutzer*innen können Detailinformationen zu einzelnen Redebeiträgen einsehen und die eigentliche
             Aufzeichnung direkt abspielen.</li>
         <li>Die Nutzer*innen können ausgewählte Stellen der Anwendung mit Textkommentaren und Tags versehen.</li>
@@ -155,12 +126,12 @@
     <p>Wesentliches Kriterium zur Bewertung Ihres Projektes ist die Umsetzung aller beschriebenen Funktionen. Ihre
         Anwendung muss für die definierten Anforderungen einen ernst gemeinten, erkennbaren Lösungsvorschlag beinhalten.
         Zusätzlich bewerten wir den Aufwand und die Qualität, die bei der Umsetzung der Funktionen erkennbar sind. Dazu
-        gehört
-        die Verwendbarkeit, Fehlertoleranz und ästhetische Qualität der Benutzeroberfläche sowie die Qualität (Struktur)
-        des
-        Datenbankschemas.</p>
+        gehört die Verwendbarkeit, Fehlertoleranz und ästhetische Qualität der Benutzeroberfläche sowie die Qualität
+        (Struktur) des Datenbankschemas.</p>
     <h2>Impressum</h2>
-    <p>Verantwortlich für den Inhalt dieser Seite ist <a href="https://www.uni-regensburg.de/sprache-literatur-kultur/medieninformatik/sekretariat-team/alexander-bazo/index.html">Alexander Bazo</a>.</p>
+    <p>Verantwortlich für den Inhalt dieser Seite ist <a
+            href="https://www.uni-regensburg.de/sprache-literatur-kultur/medieninformatik/sekretariat-team/alexander-bazo/index.html">Alexander
+            Bazo</a>.</p>
 </body>
 
 </html>
